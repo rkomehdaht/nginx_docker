@@ -1,0 +1,6 @@
+web:
+    image: nginx
+    volumes:
+     - /home/komehdaht:/usr/share/nginx/html
+    ports:
+      - "80:80"
